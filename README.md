@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instrukcja:
 
-Things you may want to cover:
+1. Download the API.
 
-* Ruby version
+2. Unarchive the files.
 
-* System dependencies
+3. Open the directory API_Ruby_On_Rails-master.
 
-* Configuration
+4. Open Comand Prompt in that diractory.
 
-* Database creation
+5. Start the RoR server with "rails server"
 
-* Database initialization
+If any problems, check your connectio with database and credentials to the database in the code.
 
-* How to run the test suite
+Instrukcja:
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Pobierz API.
 
-* Deployment instructions
+2. Rozpakuj archiwum.
 
-* ...
+3. Otwórz katalog API_Ruby_On_Rails-master.
+
+4. Otwórz Comand Prompt w tym katalogu.
+
+5. Uruchom serwer RoR z „rails server”
+
+Jeśli masz jakiekolwiek problemy, sprawdź swoje połączenie z bazą danych oraz credentiale do bazy w kodzie.
