@@ -1,0 +1,27 @@
+<%= form_with(model: auth, local: true) do |form| %>
+  <% if auth.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(auth.errors.count, "error") %> prohibited this auth from being saved:</h2>
+
+      <ul>
+        <% auth.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :uuid %>
+    <%= form.text_field :uuid %>
+  </div>
+
+  <div class="field">
+    <%= form.label :secret_token %>
+    <%= form.text_field :secret_token %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
